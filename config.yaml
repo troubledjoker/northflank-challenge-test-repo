@@ -1,0 +1,6 @@
+name: "northflank-app"
+image: "nginx:latest"
+port: 80
+# Optional extra fields
+env: "production"
+replicas: 2
