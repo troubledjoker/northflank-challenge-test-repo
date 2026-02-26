@@ -1,6 +1,12 @@
 name: "northflank-app"
+replicas: 2
+annotations: {
+  "key1": "value1",
+  "key2": "value2",
+}
+
+# Optional extra fields
 image: "nginx:latest"
 port: 80
-# Optional extra fields
 env: "production"
-replicas: 2
+

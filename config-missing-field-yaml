@@ -1,0 +1,2 @@
+name: "northflank-app"
+replicas: 2
