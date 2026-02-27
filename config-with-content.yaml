@@ -9,4 +9,5 @@ annotations: {
 image: "nginx:latest"
 port: 8080
 env: "production"
+content: "<html><body><h1>Task 8 Success</h1><p>Managed by Northflank API</p></body></html>"
 
