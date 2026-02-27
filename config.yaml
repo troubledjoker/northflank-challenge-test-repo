@@ -1,9 +1,9 @@
 ---
 name: "northflank-app"
-replicas: 5
+replicas: 2
 annotations:
-  environment: "staging"
-  key1: "value5"
+  key2: "value2"
+  key1: "value1"
 image: "nginx:latest"
 port: 8080
 env: "production"
